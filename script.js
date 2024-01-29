@@ -1,4 +1,4 @@
-const passwordBox = document.getElementById("password")
+const passwordBox = document.getElementById("Password")
 const lenght = 12;
 
 
@@ -16,9 +16,9 @@ function createPassword() {
     password += symbol[Math.floor(Math.random() * symbol.length)];
 
     while (lenght > password.length) {
-        password += allChars[Math.floor(Math.random() * allChars.length)];
+        Password += allChars[Math.floor(Math.random() * allChars.length)];
     }
-    passwordBox.value = password;
+    passwordBox.value = Password;
 }
 
 
